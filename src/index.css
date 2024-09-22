@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: customize scroll behavior */
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease-in-out;
+}
+
+.hot-deal-section {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.hot-deal-card-container {
+  display: flex;
+}
+
+.hot-deal-card {
+  flex-shrink: 0;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  transform: scale(1);
+  flex-grow: 1;
+}
+
+.hot-deal-card:hover {
+  transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+  margin-left: 20px; /* added */
+  margin-bottom: 10px; /* added */
+  padding-bottom: 10px;
+  z-index: 10;
+}
