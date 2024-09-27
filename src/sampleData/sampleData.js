@@ -1,8 +1,18 @@
+import cityImg1 from "../assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.png";
+import cityImg2 from "../assets/cityimages/ben-o-bro-wpU4veNGnHg-unsplash.png";
+import cityImg3 from "../assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.png";
+import cityImg4 from "../assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.png";
+import cityImg5 from "../assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.png";
+import golfImg1 from "../assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.png";
+import golfImg2 from "../assets/golfimages/brenda-lai-7YnghE7AD7o-unsplash.png";
+import golfImg3 from "../assets/golfimages/jorge-zapata-OTJ-xsNTk7Y-unsplash.png";
+import golfImg4 from "../assets/golfimages/luis-feliciano-LQU_PI_hn2c-unsplash.png";
+
 const hotDealsSample = [
   {
     rating: 4.5,
     discount: 20,
-    image: "./src/assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.jpg",
+    image: { golfImg1 },
     time: "8:00 AM",
     clubName: "Club 1",
     price: 100,
@@ -16,7 +26,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./src/assets/golfimages/brenda-lai-7YnghE7AD7o-unsplash.jpg",
+    image: { golfImg2 },
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -30,7 +40,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./src/assets/golfimages/jorge-zapata-OTJ-xsNTk7Y-unsplash.jpg",
+    image: { golfImg3 },
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -44,21 +54,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./src/assets/golfimages/luis-feliciano-LQU_PI_hn2c-unsplash.jpg",
-    time: "9:00 AM",
-    clubName: "Club 2",
-    price: 120,
-    discountedPrice: 102,
-    location: "Location 2",
-    length: 6500,
-    holes: 18,
-    cart: true,
-    player: 1,
-  },
-  {
-    rating: 4.2,
-    discount: 15,
-    image: "./src/assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.jpg",
+    image: { golfImg4 },
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -72,7 +68,7 @@ const hotDealsSample = [
   {
     rating: 4.5,
     discount: 20,
-    image: "./src/assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.jpg",
+    image: { golfImg1 },
     time: "8:00 AM",
     clubName: "Club 1",
     price: 100,
@@ -86,7 +82,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./src/assets/golfimages/brenda-lai-7YnghE7AD7o-unsplash.jpg",
+    image: { golfImg2 },
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -100,7 +96,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./src/assets/golfimages/jorge-zapata-OTJ-xsNTk7Y-unsplash.jpg",
+    image: { golfImg3 },
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -114,7 +110,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./src/assets/golfimages/luis-feliciano-LQU_PI_hn2c-unsplash.jpg",
+    image: { golfImg4 },
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -131,60 +127,52 @@ const GolfCitySample = [
   {
     city: "City1",
     location: "Location 1",
-    imageUrl:
-      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl: { cityImg1 },
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl:
-      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl: { cityImg2 },
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./src/assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.jpg",
+    imageUrl: { cityImg3 },
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl:
-      "./src/assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.jpg",
+    imageUrl: { cityImg4 },
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl:
-      "./src/assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.jpg",
+    imageUrl: { cityImg5 },
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl:
-      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl: { cityImg1 },
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl:
-      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl: { cityImg2 },
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./src/assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.jpg",
+    imageUrl: { cityImg3 },
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl:
-      "./src/assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.jpg",
+    imageUrl: { cityImg4 },
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl:
-      "./src/assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.jpg",
+    imageUrl: { cityImg5 },
   },
 ];
 
@@ -194,39 +182,35 @@ const StayAndPlaysample = [
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl:
-      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl: { cityImg1 },
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl:
-      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl: { cityImg2 },
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: "./src/assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.jpg",
+    imageUrl: { cityImg3 },
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl:
-      "./src/assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.jpg",
+    imageUrl: { cityImg4 },
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl:
-      "./src/assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.jpg",
+    imageUrl: { cityImg5 },
   },
 ];
 export { hotDealsSample, GolfCitySample, StayAndPlaysample };
