@@ -2,7 +2,7 @@ const hotDealsSample = [
   {
     rating: 4.5,
     discount: 20,
-    image: "./assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.jpg",
+    image: "./src/assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.jpg",
     time: "8:00 AM",
     clubName: "Club 1",
     price: 100,
@@ -16,7 +16,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./assets/golfimages/brenda-lai-7YnghE7AD7o-unsplash.jpg",
+    image: "./src/assets/golfimages/brenda-lai-7YnghE7AD7o-unsplash.jpg",
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -30,7 +30,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./assets/golfimages/jorge-zapata-OTJ-xsNTk7Y-unsplash.jpg",
+    image: "./src/assets/golfimages/jorge-zapata-OTJ-xsNTk7Y-unsplash.jpg",
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -44,7 +44,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./assets/golfimages/luis-feliciano-LQU_PI_hn2c-unsplash.jpg",
+    image: "./src/assets/golfimages/luis-feliciano-LQU_PI_hn2c-unsplash.jpg",
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -58,7 +58,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.jpg",
+    image: "./src/assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.jpg",
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -72,7 +72,7 @@ const hotDealsSample = [
   {
     rating: 4.5,
     discount: 20,
-    image: "./assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.jpg",
+    image: "./src/assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.jpg",
     time: "8:00 AM",
     clubName: "Club 1",
     price: 100,
@@ -86,7 +86,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./assets/golfimages/brenda-lai-7YnghE7AD7o-unsplash.jpg",
+    image: "./src/assets/golfimages/brenda-lai-7YnghE7AD7o-unsplash.jpg",
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -100,7 +100,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./assets/golfimages/jorge-zapata-OTJ-xsNTk7Y-unsplash.jpg",
+    image: "./src/assets/golfimages/jorge-zapata-OTJ-xsNTk7Y-unsplash.jpg",
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -114,7 +114,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: "./assets/golfimages/luis-feliciano-LQU_PI_hn2c-unsplash.jpg",
+    image: "./src/assets/golfimages/luis-feliciano-LQU_PI_hn2c-unsplash.jpg",
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -131,52 +131,60 @@ const GolfCitySample = [
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.jpg",
+    imageUrl: "./src/assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.jpg",
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.jpg",
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.jpg",
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.jpg",
+    imageUrl: "./src/assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.jpg",
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.jpg",
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: "./assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.jpg",
   },
 ];
 
@@ -186,35 +194,39 @@ const StayAndPlaysample = [
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: "./assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: "./assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg",
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: "./assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.jpg",
+    imageUrl: "./src/assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.jpg",
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: "./assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.jpg",
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: "./assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.jpg",
+    imageUrl:
+      "./src/assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.jpg",
   },
 ];
 export { hotDealsSample, GolfCitySample, StayAndPlaysample };
