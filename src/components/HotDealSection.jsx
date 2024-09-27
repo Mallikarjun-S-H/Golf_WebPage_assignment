@@ -2,6 +2,8 @@ import React from "react";
 import { HotDealCard } from "../shared/HotDealCard";
 
 const HotDealSection = ({ hotDeals }) => {
+  console.log(hotDeals);
+
   return (
     <div className="hot-deal-section flex overflow-x-auto mb-4 p-8 align-middle">
       <div className="relative flex top-0 left-0">

@@ -12,7 +12,7 @@ const hotDealsSample = [
   {
     rating: 4.5,
     discount: 20,
-    image: { golfImg1 },
+    image: golfImg1,
     time: "8:00 AM",
     clubName: "Club 1",
     price: 100,
@@ -26,7 +26,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: { golfImg2 },
+    image: golfImg2,
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -40,7 +40,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: { golfImg3 },
+    image: golfImg3,
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -54,7 +54,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: { golfImg4 },
+    image: golfImg4,
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -68,7 +68,7 @@ const hotDealsSample = [
   {
     rating: 4.5,
     discount: 20,
-    image: { golfImg1 },
+    image: golfImg1,
     time: "8:00 AM",
     clubName: "Club 1",
     price: 100,
@@ -82,7 +82,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: { golfImg2 },
+    image: golfImg2,
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -96,7 +96,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: { golfImg3 },
+    image: golfImg3,
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -110,7 +110,7 @@ const hotDealsSample = [
   {
     rating: 4.2,
     discount: 15,
-    image: { golfImg4 },
+    image: golfImg4,
     time: "9:00 AM",
     clubName: "Club 2",
     price: 120,
@@ -127,52 +127,52 @@ const GolfCitySample = [
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: { cityImg1 },
+    imageUrl: cityImg1,
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: { cityImg2 },
+    imageUrl: cityImg2,
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: { cityImg3 },
+    imageUrl: cityImg3,
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: { cityImg4 },
+    imageUrl: cityImg4,
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: { cityImg5 },
+    imageUrl: cityImg5,
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: { cityImg1 },
+    imageUrl: cityImg1,
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: { cityImg2 },
+    imageUrl: cityImg2,
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: { cityImg3 },
+    imageUrl: cityImg3,
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: { cityImg4 },
+    imageUrl: cityImg4,
   },
   {
     city: "City1",
     location: "Location 1",
-    imageUrl: { cityImg5 },
+    imageUrl: cityImg5,
   },
 ];
 
@@ -182,35 +182,35 @@ const StayAndPlaysample = [
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: { cityImg1 },
+    imageUrl: cityImg1,
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: { cityImg2 },
+    imageUrl: cityImg2,
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: { cityImg3 },
+    imageUrl: cityImg3,
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: { cityImg4 },
+    imageUrl: cityImg4,
   },
   {
     event: "event 1",
     people: 2,
     cost: 100,
     days: 2,
-    imageUrl: { cityImg5 },
+    imageUrl: cityImg5,
   },
 ];
 export { hotDealsSample, GolfCitySample, StayAndPlaysample };
