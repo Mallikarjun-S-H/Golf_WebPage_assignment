@@ -1,12 +1,12 @@
-import cityImg1 from "../assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.png";
-import cityImg2 from "../assets/cityimages/ben-o-bro-wpU4veNGnHg-unsplash.png";
-import cityImg3 from "../assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.png";
-import cityImg4 from "../assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.png";
-import cityImg5 from "../assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.png";
-import golfImg1 from "../assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.png";
-import golfImg2 from "../assets/golfimages/brenda-lai-7YnghE7AD7o-unsplash.png";
-import golfImg3 from "../assets/golfimages/jorge-zapata-OTJ-xsNTk7Y-unsplash.png";
-import golfImg4 from "../assets/golfimages/luis-feliciano-LQU_PI_hn2c-unsplash.png";
+import cityImg1 from "../assets/cityimages/arkadiusz-radek-VqOWqZoFazE-unsplash.jpg";
+import cityImg2 from "../assets/cityimages/ben-o-bro-wpU4veNGnHg-unsplash.jpg";
+import cityImg3 from "../assets/cityimages/fineas-anton-VV_AtjLknlA-unsplash.jpg";
+import cityImg4 from "../assets/cityimages/fons-heijnsbroek-_ayoDSVCSLQ-unsplash.jpg";
+import cityImg5 from "../assets/cityimages/freddie-marriage-IB9AOO-36yI-unsplash.jpg";
+import golfImg1 from "../assets/golfimages/andrew-rice-waE_CT2q8Os-unsplash.jpg";
+import golfImg2 from "../assets/golfimages/brenda-lai-7YnghE7AD7o-unsplash.jpg";
+import golfImg3 from "../assets/golfimages/jorge-zapata-OTJ-xsNTk7Y-unsplash.jpg";
+import golfImg4 from "../assets/golfimages/luis-feliciano-LQU_PI_hn2c-unsplash.jpg";
 
 const hotDealsSample = [
   {
