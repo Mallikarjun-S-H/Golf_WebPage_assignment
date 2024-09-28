@@ -3,7 +3,7 @@ import { HotDealCard } from "../shared/HotDealCard";
 
 const HotDealSection = ({ hotDeals }) => {
   return (
-    <div className="hot-deal-section flex overflow-x-auto mb-4 p-8 align-middle">
+    <div className="hot-deal-section flex overflow-x-auto mb-4 py-4 align-middle">
       <div className="relative flex top-0 left-0">
         {hotDeals.map((hotDeal, index) => (
           <div

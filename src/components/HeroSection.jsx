@@ -30,18 +30,18 @@ const HeroSection = () => {
   return (
     <div>
       <NavBar />
-      <main>
-        <div className="mx-28 container flex-col space-y-2 justify-start mt-48 ">
-          <h2 className="font-normal text-white text-left text-xl pb-4">
+      <main className="lg:mx-32 ">
+        <div className="relative container flex-col space-y-2 justify-start mt-20 px-4 h-auto">
+          <h2 className="font-normal text-white text-left text-sm ">
             Discover Affordable Tee Time Booking with InteGolf:
           </h2>
-          <h1 className="font-bold text-white text-left text-5xl pb-4">
+          <h1 className="font-bold text-white text-left text-3xl">
             A Gateway to Seamless Golfing Experiences
           </h1>
-          <SearchBar className="w-full" />
+          <SearchBar />
         </div>
-        <div className="mx-24">
-          <div className="flex mt-8 text-gray-500 justify-start font-semibold text-lg cursor-pointer">
+        <div>
+          <div className="flex mt-2 text-gray-500 justify-start font-semibold text-sm cursor-pointer">
             <div
               className={`pl-6 ${
                 activeTab === "hotDeal" ? "text-white" : "text-gray-500"
@@ -78,7 +78,6 @@ const HeroSection = () => {
           )}
         </div>
       </main>
-      <Subscribe className="w-40" />
       <Footer />
     </div>
   );

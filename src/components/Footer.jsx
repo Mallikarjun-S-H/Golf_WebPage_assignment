@@ -7,16 +7,16 @@ const Footer = () => {
     <footer className=" text-white fixed bottom-0 w-full">
       <div className=" flex md:flex-row bg-transparent flex-wrap justify-center md:justify-between items-center p-4  mx-28 space-y-2">
         <div className="flex space-x-4">
-          <div className="flex items-center space-x-2 mr-4 px-4 py-3 bg-black/40  backdrop-blur-xl rounded-full">
+          <div className="flex items-center space-x-2 mr-4 px-4 py-3 bg-black/40  backdrop-blur-xl rounded-full text-xs">
             <CartIcon />
             <span>Integolf Travel</span>
           </div>
-          <div className="flex items-center space-x-2 mr-4 px-4 py-3 bg-black/40  backdrop-blur-xl rounded-full">
+          <div className="flex items-center space-x-2 mr-4 px-4 py-3 bg-black/40  backdrop-blur-xl rounded-full text-xs">
             <GlofIcon />
             <span>Integolf Tournament</span>
           </div>
         </div>
-        <div className="flex space-x-4 text-sm">
+        <div className="flex space-x-4 text-xs">
           <a href="#">
             <span>Privacy</span>
           </a>
