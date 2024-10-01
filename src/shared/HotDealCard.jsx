@@ -22,7 +22,7 @@ const HotDealCard = ({
           <img
             src={imageUrl}
             alt="A golfer swinging a golf club on a green golf course"
-            className="w-48 h-24 object-cover rounded"
+            className="w-56 h-24 object-cover rounded-sm"
           />
           <div className="flex absolute bottom-2 left-2">
             <div className=" bg-green-500 text-white text-[8px] font-semibold px-2 py-1 mr-2 rounded-full flex items-center">
@@ -83,7 +83,7 @@ const LocationCard = ({ location, city, imageUrl }) => {
           <img
             src={imageUrl}
             alt="A golfer swinging a golf club on a green golf course"
-            className="w-64 h-28 object-cover rounded"
+            className="w-64 h-28 object-cover rounded-sm"
           />
         </div>
         <div className="px-2 py-2">
@@ -109,7 +109,7 @@ const StayAndPlayCard = ({ cost, days, people, event, imageUrl }) => {
           <img
             src={imageUrl}
             alt="A golfer swinging a golf club on a green golf course"
-            className="w-64 h-28 object-cover rounded"
+            className="w-64 h-28 object-cover rounded-sm"
           />
         </div>
         <div className="p-2">
